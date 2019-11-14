@@ -48,7 +48,7 @@ def naming_system
           PORTION_2[:label]=>{
             PORTION_3[:label]=>{
               PORTION_3[:sub_category][:label]=>{
-                PORTION_4[:label]
+                PORTION_4[:label]=>"Species"
               }
             }
           }
