@@ -41,5 +41,18 @@ def naming_system
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
-  {"Kingdom"=>PORTION_1[:label],"Phylum"=>PORTION_1[:sub_category][:label],"Class"=>PORTION_1[:sub_category][:sub_category][:label],"Order"=>PORTION_2[:label],"Family"=>PORTION_3[:label],"Genus"=>PORTION_3[:sub_category][:label],"Species"=>PORTION_4[:label]}
+  naming_system={
+    PORTION_1[:label]=>{
+      PORTION_1[:sub_category][:label]=>{
+        PORTION_1[:sub_category][:sub_category][:label]=>{
+          PORTION_2[:label]=>{
+            PORTION_3[:label]=>{
+              PORTION_3[:sub_category][:label]=>{
+                PORTION_4[:label]
+              }
+            }
+          }
+        }
+      }
+    }
 end
