@@ -43,6 +43,7 @@ def naming_system
   # HoH all the way to Species!
   {
     label=>PORTION_1[:label],
-    sub_category=>PORTION_1[:sub_category][:label]
+    sub_category1=>PORTION_1[:sub_category][:label],
+    sub_category2=>PORTION_2[:sub_category][:sub_category][:label]
   }
 end
