@@ -54,7 +54,6 @@ def naming_system
           sub_category: {
             label: "Genus",
             sub_category: {
-              sub_category: {
                 label:"Species",
                 sub_category: nil
               }
@@ -64,5 +63,5 @@ def naming_system
       }
     }
   }
-}
+
 end
